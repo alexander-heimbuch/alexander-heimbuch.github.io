@@ -1,0 +1,9 @@
+<h3 style="color: {color};" class="news-headline">{title}</h3>
+<ul class="news-list image">
+    {#items}
+        <li class="news-item {visited}" data-link="{link}" style="background-image: url({image});">
+            <div class="news-title"><h3 class="news-text">{title}</h3></div>
+        </li>
+    {/items}
+</ul>
+<div class="clearfix"></div>

@@ -1,0 +1,1 @@
+(function(){define(["jquery"],function($){var n;return n=function(n,t,r,u){var e,i;return e=function(n){return $.get(t,function(r){return dust.loadSource(dust.compile(r,t)),n()})},i=function(t){return $(n).html(t),u()},function(){return e(function(){return dust.render(t,r,function(n,t){return n?void 0:i(t)})})}}})}).call(this);
