@@ -25,11 +25,18 @@
     "count": 10
   }, {
     "logo": "",
-    "title": "Awwwards",
-    "node": "#news-col-4",
-    "url": "http://feeds.feedburner.com/awwwards-sites-of-the-day",
+    "title": "Kickstarter Design",
+    "node": "#news-row-1",
+    "url": "http://www.crowdfundingrss.com/feed/rss/ga5NO87",
     "template": "./templates/image.dust",
-    "count": 3
+    "count": 6
+  }, {
+    "logo": "",
+    "title": "Kickstarter Technology",
+    "node": "#news-row-2",
+    "url": "http://www.crowdfundingrss.com/feed/rss/789n3x6",
+    "template": "./templates/image.dust",
+    "count": 6
   }],
   "header": {
     "node": "#startpage-header",
