@@ -25,18 +25,11 @@
     "count": 10
   }, {
     "logo": "",
-    "title": "Kickstarter Design",
+    "title": "Kickstarter",
     "node": "#news-row-1",
-    "url": "http://www.crowdfundingrss.com/feed/rss/ga5NO87",
+    "url": "https://www.kickstarter.com/projects/feed.atom",
     "template": "./templates/image.dust",
-    "count": 6
-  }, {
-    "logo": "",
-    "title": "Kickstarter Technology",
-    "node": "#news-row-2",
-    "url": "http://www.crowdfundingrss.com/feed/rss/789n3x6",
-    "template": "./templates/image.dust",
-    "count": 6
+    "count": 12
   }],
   "header": {
     "node": "#startpage-header",
