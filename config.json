@@ -15,11 +15,19 @@
     "url": "http://www.theverge.com/mobile/rss/index.xml",
     "template": "./templates/text.dust",
     "count": 10
-  },{
+  }, {
+    "logo": "http://drippler.com/sites/default/files/logos/icons/26502.png",
+    "title": "9to5mac.com",
+    "color": "#0D4D7C",
+    "node": "#news-col-3",
+    "url": "http://9to5mac.com/feed/",
+    "template": "./templates/text.dust",
+    "count": 10
+  }, {
     "logo": "http://www.golem.de/1105/83320-11135-i.png",
     "title": "Golem.de",
     "color": "#000",
-    "node": "#news-col-3",
+    "node": "#news-col-4",
     "url": "http://golem.de.dynamic.feedsportal.com/pf/578068/http://rss.golem.de/rss.php?feed=RSS2.0",
     "template": "./templates/text.dust",
     "count": 10
