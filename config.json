@@ -50,11 +50,14 @@
       "link": "http://epages-ui-staging.intern.epages.de:8001/",
       "title": "stage:ui"
     }, {
-      "link": "https://github.com/ePages-de/epages-ui/",
-      "title": "staging:ui"
-    }, {
       "link": "http://ep-sonar:9000/",
       "title": "dev:sonar"
+    }, {
+      "link": "127.0.0.1:8002/debug?port=5858",
+      "title": "dev:inspector"
+    }, {
+      "link": "https://github.com/ePages-de/epages-ui/",
+      "title": "github:ui"
     }]
   }
 }
