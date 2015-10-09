@@ -3,61 +3,49 @@
     "logo": "http://www.ycombinator.com/images/ycombinator-logo-fb889e2e.png",
     "title": "Hackernews",
     "color": "#f46507",
-    "node": "#news-col-1",
+    "node": "#news-1",
     "url": "https://news.ycombinator.com/rss",
     "template": "./templates/text.dust",
+    "website": "https://news.ycombinator.com",
     "count": 10
   },{
     "logo": "http://cdn2.sbnation.com/community_logos/35024/verge-logo-xl.jpg",
     "title": "The Verge",
     "color": "#5461c2",
-    "node": "#news-col-2",
+    "node": "#news-2",
     "url": "http://www.theverge.com/mobile/rss/index.xml",
     "template": "./templates/text.dust",
+    "website": "http://www.theverge.com",
     "count": 10
   }, {
     "logo": "http://drippler.com/sites/default/files/logos/icons/26502.png",
     "title": "9to5mac.com",
     "color": "#0D4D7C",
-    "node": "#news-col-3",
+    "node": "#news-3",
     "url": "http://9to5mac.com/feed/",
     "template": "./templates/text.dust",
+    "website": "http://9to5mac.com",
     "count": 10
   }, {
     "logo": "http://www.golem.de/1105/83320-11135-i.png",
     "title": "Golem.de",
     "color": "#000",
-    "node": "#news-col-4",
+    "node": "#news-4",
     "url": "http://golem.de.dynamic.feedsportal.com/pf/578068/http://rss.golem.de/rss.php?feed=RSS2.0",
     "template": "./templates/text.dust",
+    "website": "http://www.golem.de",
     "count": 10
-  }, {
-    "logo": "",
-    "title": "Kickstarter",
-    "node": "#news-row-1",
-    "url": "https://www.kickstarter.com/projects/feed.atom",
-    "template": "./templates/image.dust",
-    "count": 12
   }],
   "header": {
     "node": "#startpage-header",
     "template": "./templates/header.dust",
     "title": ":alexander-heimbuch",
     "navigation": [{
-      "link": "http://aheimbuch.intern.epages.de:8001/",
-      "title": "local:ui"
+      "link": "https://github.com/alexander-heimbuch?tab=repositories",
+      "title": "github:repos"
     }, {
-      "link": "http://epages-ui-staging.intern.epages.de:8001/",
-      "title": "stage:ui"
-    }, {
-      "link": "http://ep-sonar:9000/",
-      "title": "dev:sonar"
-    }, {
-      "link": "127.0.0.1:8002/debug?port=5858",
-      "title": "dev:inspector"
-    }, {
-      "link": "https://github.com/ePages-de/epages-ui/",
-      "title": "github:ui"
+      "link": "https://gist.github.com/alexander-heimbuch",
+      "title": "github:gists"
     }]
   }
 }
