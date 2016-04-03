@@ -36,11 +36,11 @@
     "website": "http://www.golem.de",
     "count": 10
   }, {
-    "logo": "http://www.uxceclipse.info/wp-content/uploads/sites/2/2014/03/news-icon.jpg",
-    "title": "Local",
+    "logo": "http://cdn-img.easyicon.net/png/11072/1107229.gif",
+    "title": "Netflix",
     "node": "#news-4",
-    "color": "#a8353a",
-    "url": "http://weimar.tlz.de/web/weimar/startseite/-/rss/mV6F/feed.rss",
+    "color": "#E50914",
+    "url": "http://de.allflicks.net/rss/rss.xml",
     "template": "./templates/text.dust",
     "count": 10
   }],
